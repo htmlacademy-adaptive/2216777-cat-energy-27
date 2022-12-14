@@ -2284,6 +2284,12 @@
     margin-bottom: 75px;
   }
 }
+@media (min-width: 1440px) {
+  .form__fieldset--intends1 {
+    width: 569px;
+    margin-bottom: 75px;
+  }
+}
 @media (min-width: 768px) {
   .form__fieldset--intends2 {
     margin-bottom: 65px;
@@ -2336,6 +2342,7 @@
   .group {
     margin: 0;
     padding: 0;
+    width: 569px;
   }
 }
 .group--intends {
@@ -2344,14 +2351,31 @@
 
 @media (min-width: 768px) {
   .group--radio {
+    width: 628px;
+    box-sizing: border-box;
+    padding: 25px 28px 25px 28px;
+    border: 1px solid #e7e7e7;
+  }
+}
+@media (min-width: 1440px) {
+  .group--radio {
+    width: 569px;
+    box-sizing: border-box;
     padding: 25px 28px 25px 28px;
     border: 1px solid #e7e7e7;
   }
 }
 @media (min-width: 768px) {
   .group__radio-wrapper {
-    width: 630px;
+    width: 628px;
     min-height: 196px;
+    margin: 0 67px 0 71px;
+  }
+}
+@media (min-width: 1440px) {
+  .group__radio-wrapper {
+    width: 569px;
+    min-height: 200px;
     margin: 0 67px 0 71px;
   }
 }
