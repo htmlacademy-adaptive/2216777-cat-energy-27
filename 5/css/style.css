@@ -32,16 +32,16 @@
 }
 
 .page {
+  min-width: 320px;
   width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
   overflow-x: hidden;
 }
 
 .page__body {
+  min-width: 320px;
   width: 100%;
-  margin: 0 auto;
   padding: 0;
+  margin: 0;
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
 }
@@ -380,6 +380,8 @@
   }
 }
 .nutrition {
+  min-width: 320px;
+  width: 100%;
   min-height: 480px;
   text-align: center;
 }
@@ -1529,7 +1531,7 @@
   grid-template-columns: 140px 140px;
   row-gap: 25px;
   box-sizing: border-box;
-  padding: 0 20px 25px 20px;
+  padding: 0 0 25px 0;
 }
 
 .card:not(:last-child) {
@@ -2013,6 +2015,14 @@
     border-bottom: none;
   }
 }
+@media (min-width: 1440px) {
+  .gift {
+    width: 245px;
+    height: 289px;
+    margin: 0;
+    margin-bottom: 86px;
+  }
+}
 .gift__wrapper {
   width: 280px;
   height: 290px;
@@ -2039,6 +2049,7 @@
   .gift__wrapper {
     width: 245px;
     height: 289px;
+    margin: 0;
     background-image: url("../img/catalog-background.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -2074,6 +2085,7 @@
 .form {
   min-width: 320px;
   width: 100%;
+  margin: 0;
   border-top: 1px solid #d9d9d9;
 }
 
@@ -2144,7 +2156,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  width: 280px;
+  width: 226px;
   margin: 0;
   margin-bottom: 39px;
   padding: 0;
@@ -2169,7 +2181,7 @@
 }
 .form__fieldset {
   width: 280px;
-  padding: 0 20px;
+  padding: 0;
   margin: 0 auto;
   border: none;
 }
@@ -2185,7 +2197,7 @@
 }
 @media (min-width: 1440px) {
   .form__fieldset {
-    width: 1440px;
+    width: 569px;
     padding: 0;
     margin: 0 auto;
     margin-bottom: 69px;
@@ -2288,14 +2300,14 @@
     padding: 0 110px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 596px 570px;
+    grid-template-columns: 569px 570px;
     column-gap: 80px;
   }
 }
 @media (min-width: 1440px) {
   .form__radio-wrapper {
     width: 570px;
-    min-height: 196px;
+    min-height: 200px;
     margin: 0;
   }
 }
@@ -2308,6 +2320,7 @@
   }
 }
 .group {
+  width: 280px;
   margin: 0;
   padding: 0 20px 11px 20px;
   list-style-type: none;
@@ -2315,6 +2328,7 @@
 
 @media (min-width: 768px) {
   .group {
+    width: 630px;
     padding: 0;
   }
 }
@@ -2370,11 +2384,6 @@
     grid-template-columns: 569px 569px;
     column-gap: 78px;
     padding: 0 110px;
-  }
-}
-@media (min-width: 1440px) {
-  .group--size {
-    width: 500px;
   }
 }
 .field {
