@@ -520,7 +520,7 @@
 }
 @media (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1440px) and (min-resolution: 2dppx) {
   .nutrition::after {
-    background-image: url("../img/nutrition-cat-desktop@2x.png 2x");
+    background-image: url("../img/nutrition-cat-desktop@2x.png");
     background-size: 1044px auto;
   }
 }
@@ -574,7 +574,7 @@
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .nutrition__text-wrapper {
-    background-image: url("../img/nutrition-cat-mobile@2x.png 2x");
+    background-image: url("../img/nutrition-cat-mobile@2x.png");
     background-size: 320px auto;
   }
 }
@@ -2522,7 +2522,7 @@
   width: 280px;
   height: 290px;
   margin: 35px 20px 35px 20px;
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-gift-mobile.png");
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-gift.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2546,7 +2546,7 @@
     height: 200px;
     margin: 0 auto 76px auto;
     padding: 0;
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-gift-mobile.png");
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-gift.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2563,7 +2563,7 @@
     width: 245px;
     height: 289px;
     margin: 0;
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-gift-mobile.png");
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-gift.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
