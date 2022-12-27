@@ -1454,6 +1454,7 @@
   padding: 0 20px;
   margin: 0 auto;
   overflow: hidden;
+  padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
@@ -1472,10 +1473,10 @@
   }
 }
 .example__list {
+  position: relative;
   display: grid;
   grid-template-columns: 138px 4px 138px;
   grid-template-rows: 256px;
-  margin-bottom: 40px;
 }
 .example__list::after {
   content: "";
@@ -1489,7 +1490,6 @@
 
 @media (min-width: 768px) {
   .example__list {
-    position: relative;
     width: 560px;
     display: grid;
     grid-template-columns: 278px 4px 278px;
@@ -1564,23 +1564,15 @@
   background-image: url("../img/svg/thumb.svg");
   background-color: #ffffff;
   border-radius: 100%;
-  top: 50%;
-  left: 50%;
+  top: 37%;
+  left: 44%;
   z-index: 5;
 }
 
 @media (min-width: 768px) {
   .example__button {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 40px;
-    background-color: #ffffff;
-    background-image: url("../img/svg/thumb.svg");
-    border-radius: 100%;
-    top: 50%;
+    top: 37%;
     left: 46.5%;
-    z-index: 5;
   }
 }
 .footer {
