@@ -125,15 +125,21 @@
 }
 
 @media (max-width: $mobile-width-only) {
-  .example__description {
-    @include font-lato;
-    width: 280px;
-    margin: 0;
-  }
-
   br {
     display: none;
   }
+}
+
+@media (max-width: $tablet-width-only) {
+  br {
+    display: none;
+  }
+}
+
+.example__description {
+  @include font-lato;
+  width: 280px;
+  margin: 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -144,15 +150,11 @@
     font-size: 16px;
     line-height: 24px;
   }
-
-  br {
-    display: none;
-  }
 }
 
 @media (min-width: $desktop-width) {
   .example__description {
-    width: 445px;
+    width: 448px;
     margin-bottom: 54px;
   }
 }
@@ -183,7 +185,7 @@
 .example__term {
   padding: 13px 42px 0 43px;
   margin: 20px 0 32px 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -235,7 +237,7 @@
 .example__total-cost {
   width: 188px;
   margin: 0 45px 20px 47px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;

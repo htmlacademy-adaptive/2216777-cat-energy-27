@@ -32,6 +32,7 @@
 
 .additional-catalog__wrapper-title {
   width: 320px;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
@@ -46,20 +47,12 @@
   }
 }
 
-@media (min-width: $tablet-width) {
-  .additional-catalog__wrapper-title {
-    min-width: 768px;
-    width: 100%;
-    border-bottom: none;
-  }
-}
-
 .additional-catalog__title {
   position: relative;
   width: 226px;
   margin: 0 auto;
   padding: 23px 74px 36px 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -109,7 +102,7 @@
 @media (min-width: $desktop-width) {
   .additional-catalog__title {
     width: 1220px;
-    margin: 76px 0 81px 110px;
+    margin: 73px 0 81px 110px;
 
     &::after {
       left: calc(100% - 845px);
